@@ -1,3 +1,119 @@
-h1 {
-
+h3 {
+    font-weight: bold;
+}
+.header-styled-container {
+    margin: 0 -16px;
+    border-radius: 8px;
+}
+.styled-container {
+    margin: 0 -16px;
+    border-radius: 8px;
+    border: 1px solid #DADADA;
+    background: #DADADA;
+}
+.styled-container-center {
+    margin: 0 -16px;
+    border-radius: 8px;
+    border: 1px solid #DADADA;
+    background: #DADADA;
+    text-align: center;
+}
+.styled-header {
+    border: 1px solid #D71340;
+    background: #D71340 url("//images.prmcdn.io/nspb4eszeb0c/images/LP-Presentation-BG-Texture-1-Red.png") no-repeat right top;
+    background-size: cover;
+    min-height: 200px;
+}
+.gradient {
+    background-image: linear-gradient(to bottom right, rgba(0, 105, 251, 1), rgba(114, 202, 144, 1)) !important;
+}
+.splash-image img {
+    max-height: 300px;
+}
+.three-styled-container {
+    margin: 0 -16px;
+    border-radius: 8px;
+}
+.three-styled-container-content {
+    padding: 30px 35px 10px 35px;
+}
+.three-styled-container a {
+    color: #000000;
+    font-size: 26px;
+}
+.three-styled-container ul {
+    color: #000000;
+    margin-left: 37px;
+}
+.three-styled-container li {
+    margin: 10px 0;
+}
+.header-image {
+    border-radius: 7px 7px 0 0;
+    margin: -1px 0 0 0;
+    width: 100%;
+}
+.three-styled-header {
+    color: #000000;
+    text-transform: none;
+    margin: 0 0 30px 0;
+}
+.btn-primary, .btn-primary:visited {
+    border-radius: 8px !important;
+    padding: 12px 32px !important;
+    min-height: 52px !important;
+    background: #DE0C48 !important;
+    border: 1px solid #DE0C48 !important;
+    color: #FFFFFF !important;
+    text-transform: none !important;
+    font-size: 18px !important;
+    font-style: normal !important;
+    font-weight: 700; !important
+    line-height: 28px !important;
+    letter-spacing: -0.2px !important;
+    text-decoration: none !important;
+}
+.btn-primary:hover, .btn-primary:active  {
+    background: #DE0C48 !important;
+    border: 1px solid #DE0C48 !important;
+}
+.btn-secondary, .btn-secondary:visited {
+    border-radius: 8px !important;
+    padding: 12px 32px !important;
+    min-height: 52px !important;
+    background: none !important;
+    border: 2px solid #DE0C48 !important;
+    color: #DE0C48 !important;
+    text-transform: none !important;
+    font-size: 18px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: 28px !important;
+    letter-spacing: -0.2px !important;
+    text-decoration: none !important;
+}
+.btn-secondary:hover, .btn-secondary:active  {
+    background: none !important;
+    border: 2px solid #C50B3A !important;
+    color: #C50B3A !important;
+}
+.btn-tertiary, .btn-tertiary:visited {
+    border-radius: 8px !important;
+    padding: 12px 32px !important;
+    min-height: 52px !important;
+    background: #FFFFFF !important;
+    border: 1px solid #FFFFFF !important;
+    color: #000000 !important;
+    text-transform: none !important;
+    font-size: 18px !important;
+    font-style: normal !important;
+    font-weight: 700; !important
+    line-height: 28px !important;
+    letter-spacing: -0.2px !important;
+    text-decoration: none !important;
+}
+.btn-tertiary:hover, .btn-tertiary:active  {
+    background: #FFFFFF !important;
+    border: 1px solid #FFFFFF !important;
+    color: #DE0C48 !important;
 }
